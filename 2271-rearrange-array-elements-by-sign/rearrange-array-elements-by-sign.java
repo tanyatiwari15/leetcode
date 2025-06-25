@@ -2,7 +2,7 @@ class Solution {
     public int[] rearrangeArray(int[] nums) {
         
          ArrayList<Integer> positives = new ArrayList<>();
-          ArrayList<Integer> negatives = new ArrayList<>();
+         ArrayList<Integer> negatives = new ArrayList<>();
         for(int i=0; i<nums.length; i++){
             if(nums[i]>=0){
                 positives.add(nums[i]);
