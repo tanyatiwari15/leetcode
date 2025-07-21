@@ -21,9 +21,6 @@ class Solution {
             else{
             ans = mid+1;
             }
-        
-
-           
         }
         return ans;
         
