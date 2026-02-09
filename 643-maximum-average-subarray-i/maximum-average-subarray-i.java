@@ -8,7 +8,7 @@ class Solution {
         int s = 0;
         int e = k;
 
-        while(e<nums.length){
+        while(e <nums.length){
             sum -= nums[s];
             s++;
 
